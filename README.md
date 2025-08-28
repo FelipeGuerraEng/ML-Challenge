@@ -1,3 +1,17 @@
-# Mini-Prod ML Challenge (Starter)
+# Mini-Prod ML Challenge
 
-See the Google Doc for full candidate brief.
+├── README.md
+├── requirements.txt           
+├── src/
+│   ├── __init__.py
+│   ├── train.py                
+│   ├── app.py                  
+│   ├── drift.py                
+│   └── agent_monitor.py        
+├── tests/
+│   ├── test_training.py        
+│   └── test_inference.py       
+├── data/                      
+├── artifacts/                 
+├── docker/                    
+└── .github/workflows/          
