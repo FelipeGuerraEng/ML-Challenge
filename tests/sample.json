@@ -1,0 +1,28 @@
+[
+  {
+    "plan_type": "Standard",
+    "contract_type": "Monthly",
+    "autopay": "Yes",
+    "is_promo_user": "No",
+    "add_on_count": 1,
+    "tenure_months": 8,
+    "monthly_usage_gb": 130.5,
+    "avg_latency_ms": 145.0,
+    "support_tickets_30d": 0,
+    "discount_pct": 10.0,
+    "payment_failures_90d": 0
+  },
+  {
+    "plan_type": "Basic",
+    "contract_type": "Monthly",
+    "autopay": "No",
+    "is_promo_user": "Yes",
+    "add_on_count": 0,
+    "tenure_months": 2,
+    "monthly_usage_gb": 70.0,
+    "avg_latency_ms": 210.0,
+    "support_tickets_30d": 3,
+    "discount_pct": 0.0,
+    "payment_failures_90d": 2
+  }
+]
