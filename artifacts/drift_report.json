@@ -1,0 +1,28 @@
+{
+  "threshold": 0.2,
+  "overall_drift": true,
+  "features": {
+    "plan_type": 0.0014770836241190912,
+    "contract_type": 0.011643819007415394,
+    "autopay": 0.11025399818793676,
+    "is_promo_user": 0.00041042612552959136,
+    "add_on_count": 0.005731594939165443,
+    "tenure_months": 0.019188443487451,
+    "monthly_usage_gb": 0.010763929718586304,
+    "avg_latency_ms": 0.32633546514992456,
+    "support_tickets_30d": 0.12458190856967749,
+    "discount_pct": 0.12075429016781522,
+    "payment_failures_90d": 0.0004118199483091089,
+    "downtime_hours_30d": 0.30870750265019636
+  },
+  "ks": {
+    "add_on_count": 0.034999999999999976,
+    "tenure_months": 0.053749999999999964,
+    "monthly_usage_gb": 0.04125000000000001,
+    "avg_latency_ms": 0.21750000000000003,
+    "support_tickets_30d": 0.16375,
+    "discount_pct": 0.1312500000000001,
+    "payment_failures_90d": 0.008750000000000036,
+    "downtime_hours_30d": 0.20625
+  }
+}
