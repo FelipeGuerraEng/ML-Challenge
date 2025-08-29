@@ -1,0 +1,27 @@
+{
+  "timestamp": "2025-08-29T02:18:00.595168Z",
+  "git_sha": "7fdbc5a",
+  "train": {
+    "n": 19200.0,
+    "positive": 6077.0,
+    "negative": 13123.0,
+    "positive_rate": 0.3165104166666667
+  },
+  "valid": {
+    "n": 4800.0,
+    "positive": 1519.0,
+    "negative": 3281.0,
+    "positive_rate": 0.31645833333333334
+  },
+  "cv_best_roc_auc": 0.9361370293538867,
+  "best_params": {
+    "C": 4.834112652465209
+  },
+  "metrics": {
+    "roc_auc": 0.9342079469260544,
+    "pr_auc": 0.8744566385273871,
+    "accuracy": 0.8502083333333333,
+    "threshold": 0.5
+  },
+  "sampling": "none"
+}

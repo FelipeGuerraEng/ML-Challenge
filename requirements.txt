@@ -9,3 +9,5 @@ pydantic
 pyyaml
 pytest
 joblib
+optuna
+imbalanced-learn
