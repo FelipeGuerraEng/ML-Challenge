@@ -11,3 +11,4 @@ pytest
 joblib
 optuna
 imbalanced-learn
+httpx
