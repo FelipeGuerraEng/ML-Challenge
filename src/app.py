@@ -78,7 +78,7 @@ def _rows_to_dataframe(payload: PredictRequest) -> pd.DataFrame:
     Convert a PredictRequest into a pandas DataFrame with correct column order.
     """
     try:
-        records: List[dict] = [r.dict() for r in payload.items]
+        records: List[dict] = [r.model_dump() for r in payload.items]
         df = pd.DataFrame.from_records(records)
         expected_cols = CAT_FEATURES + NUM_FEATURES
         missing = [c for c in expected_cols if c not in df.columns]
