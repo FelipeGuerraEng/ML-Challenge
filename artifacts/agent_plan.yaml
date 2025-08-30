@@ -1,0 +1,12 @@
+status: critical
+findings:
+  - roc_auc_drop_pct: 4.945
+  - pr_auc_drop_pct: 5.513
+  - latency_consecutive_breach: True
+  - drift_overall: True
+actions:
+  - trigger_retraining
+  - open_incident
+  - page_oncall=false
+rationale: >
+  ROC-AUC now 0.8650 vs 7-day median 0.9100 (drop 4.95%). PR-AUC now 0.6170 vs 7-day median 0.6530 (drop 5.51%). Latency p95 > 400 ms for 2 consecutive points. overall_drift=true.
