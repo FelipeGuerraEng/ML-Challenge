@@ -119,7 +119,7 @@ GitHub Actions workflow in `.github/workflows/ci.yml` runs: install deps → tes
 - **Monitoring**: Drift via PSI/KS per feature; `overall_drift` when PSI ≥ 0.2. Agent monitor classifies `healthy|warn|critical` using rules over ROC/PR and p95 latency.
 - **MLOps**: Tests (training/inference), minimal Docker image, CI (install → tests → docker build).
 
-## GCP (one-pager)
+## GCP
 See `design_gcp.md` for a simple, cost-aware deployment on BigQuery + Vertex AI + Cloud Run + Cloud Monitoring.
 
 ## Reproducibility
