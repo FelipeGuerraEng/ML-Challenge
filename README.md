@@ -1,4 +1,4 @@
-# Mini-Prod ML Challenge — Churn Mini-Prod
+# Mini-Prod ML Challenge 
 
 Small, production-minded binary classifier on a tabular dataset with training, serving, drift check, and a light agent monitor. 
 
